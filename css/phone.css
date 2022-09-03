@@ -27,6 +27,7 @@ padding: 3px;
     font-size: 13px;
 }
 
+
 /* services section */
 #services{
     flex-direction: column;
@@ -43,8 +44,6 @@ padding: 3px;
 }
 
 
-
-
 /* clients section */
 #clients{
     flex-wrap: wrap;
@@ -54,7 +53,6 @@ padding: 3px;
     width: 66px;
     height: 66px;
 }
-
 
 
 /* contact us section */
@@ -73,6 +71,7 @@ padding: 3px;
     font-size: 1.3rem;
     padding: 4px;
 }
+
 
 /* button styling */
 .btn,.btns{
