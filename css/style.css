@@ -107,17 +107,28 @@ html{
 }
 
 /* services section */
-#services{    
-    margin: 25px;
+.services{    
     display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    margin: auto 2%;
+    column-gap: 25px;
+    margin-bottom: 40px;
 }
 
 #services .box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     border: 2px solid brown;
     padding: 20px;
-    margin: 10px 6px;
+    margin-top: 20px;
     border-radius: 28px;
     background: #f2efef;
+    /* max-width: 350px; */
 }
 
 #services .box img{
@@ -129,6 +140,8 @@ html{
 
 #services .box p{
     font-family: 'Bree Serif', serif;
+    /* max-width: 350px; */
+    text-align: justify;
 }
 
 #services .box:hover{
@@ -264,4 +277,81 @@ footer p{
 
 .center{
     text-align: center;
+}
+
+ @media screen and (max-width: 1000px) {
+    .services{
+        display: flex;
+        column-gap: 160px;
+        flex-direction: column;
+    }
+} 
+
+@media screen and (max-width: 900px){
+    /* navigation */
+    #navbar{
+        flex-direction: column;
+    }
+
+    #navbar ul li{
+        padding-bottom: 8px;
+    }
+
+    #navbar ul li a{
+        font-size: 1rem;
+        padding: 0px 6px;
+    }
+
+    /* home section */
+    #home{
+    height: 220px;
+    padding: 3px;
+    }
+
+    #home::before{
+        height: 400px;
+    }
+
+    #home p{
+        font-size: 13px;
+    }
+    
+    #services .box img{
+        height: 100px;
+    }
+
+    /* clients section */
+    #clients{
+        flex-wrap: wrap;
+    }
+
+    #clients img{
+        width: 66px;
+        height: 66px;
+    }
+
+
+    /* contact us section */
+    #contact-box form{
+        width: 80vw;
+    }
+
+
+    /* utility classes */
+    .h-primary{
+        font-size: 26px;
+        margin-top: 35px;
+    }
+
+    .h-secondary{
+        font-size: 1.3rem;
+        padding: 4px;
+    }
+
+    /* button styling */
+    .btn,.btns{
+        font-size: 13px;
+        padding: 4px 8px;
+    }
+
 }
