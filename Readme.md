@@ -10,7 +10,7 @@
  #### I got the basic understanding of HTML Tags and Core CSS Concept of handling with background 
    
 
-[Click here to view live 🚀](https://kvishalrj.github.io/Loginpage/ "Street Style Landing Page")
+[Click here to view live 🚀](https://mybonton.netlify.app/ "Street Style Landing Page")
 
 ## Screenshot of the Project 👇
 ![](/images/Screenshot%202022-09-03%20at%2011-42-05%20Best%20Online%20Food%20Services%20In%20India%20MyBonTon.com.png)
